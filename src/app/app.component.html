@@ -82,3 +82,35 @@
   </button>
   <a mat-mini-fab routerLink=".">Link</a>
 </div>
+
+
+<br>
+
+<div style="display: block;position: relative; height: 500px;; width: 800px;">
+  <canvas baseChart 
+  [datasets]="barChartData"
+  [labels]="barChartLabels"
+  [options]="barChartOptions"
+  [plugins]="barChartPlugins"
+  [legend]="barChartLegend"
+  [type]="barChartType">
+</canvas>
+</div>
+
+<br>
+
+<!-- <div class="chart-container" style="position: relative; height:40vh; width:80vw">
+  <canvas id="chart"></canvas>
+</div> -->
+
+
+<div style="display: block;position: relative; height: 500px;; width: 500px;">
+  <canvas  id="chart" baseChart 
+  [datasets]="doughChartData"
+  [labels]="barChartLabels"
+  [options]="barChartOptions"
+  [plugins]="barChartPlugins"
+  [legend]="barChartLegend"
+  [type]="'doughnut'">
+</canvas>
+</div>

@@ -8,6 +8,7 @@ import { MaterialExampleModule } from '../material.module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatNativeDateModule } from '@angular/material/core';
 import { HttpClientModule } from '@angular/common/http';
+import { NgChartsModule } from 'ng2-charts';
 
 @NgModule({
   declarations: [AppComponent],
@@ -21,6 +22,7 @@ import { HttpClientModule } from '@angular/common/http';
     MatNativeDateModule,
     MaterialExampleModule,
     ReactiveFormsModule,
+    NgChartsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
